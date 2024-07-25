@@ -1,0 +1,52 @@
+/* list_patients.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.arrowBox{
+    background-color: #F5F5F5;
+    padding: 9px;
+    border-radius: 6px;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.arrow{
+    font-size: 30px;
+}
+
+section#patients {
+    padding: 20px;
+}
+
+section#patients table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+section#patients th, section#patients td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+section#patients th {
+    background-color: #f2f2f2;
+}
+.no-patientsContainer{
+    margin: auto;
+}
+
+footer {
+    background-color: #3851e2; /* Added missing semicolon */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

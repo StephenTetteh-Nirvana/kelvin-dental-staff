@@ -1,0 +1,38 @@
+/* staff.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section#staff {
+    padding: 20px;
+}
+
+section#staff ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#staff ul li {
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+section#staff ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #3851e2; /* Added missing semicolon */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
